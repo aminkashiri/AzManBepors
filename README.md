@@ -1,3 +1,2 @@
 # AzManBepors
-fuck amin
 change
