@@ -1,0 +1,2 @@
+graft AZMANBEPORS/templates
+global-exclude *.pyc

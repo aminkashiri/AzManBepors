@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<body>
+    <form method="POST" action="/auth/login">
+        <ul>
+            <li><a href="{{ url_for('auth.register') }}">Register</a>
+            <li><a href="{{ url_for('auth.login') }}">Log In</a>
+        </ul>
+        <center>
+        <h1>login</h1>
+        <H1>Enter your details </H1> <br>
+        UserName <input type = "text" name= "userName" /> <br>
+        Password <input type = "password" name = "password" /> <br>
+        <input type = "submit">
+        {% for message in get_flashed_messages() %}
+        <div>{{ message }}</div>
+        {% endfor %}
+        </center>
+    </form>
+</body>
+</html>

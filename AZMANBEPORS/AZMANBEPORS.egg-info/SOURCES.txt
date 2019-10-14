@@ -1,0 +1,8 @@
+MANIFEST.in
+setup.py
+AZMANBEPORS.egg-info/PKG-INFO
+AZMANBEPORS.egg-info/SOURCES.txt
+AZMANBEPORS.egg-info/dependency_links.txt
+AZMANBEPORS.egg-info/not-zip-safe
+AZMANBEPORS.egg-info/requires.txt
+AZMANBEPORS.egg-info/top_level.txt
